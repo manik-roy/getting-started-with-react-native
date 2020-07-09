@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 40,
     textAlign: "center",
-    padding: 10
+    padding: 10,
   },
   buttonStyle: {
     width: '60%',
