@@ -12,11 +12,15 @@ const HomeScreen = ({ navigation }) => {
       </View>
       <View style={styles.buttonStyle}>
         <Button
-          onPress={() => navigation.navigate("List")} title="Go to friends list" />
+          onPress={() => navigation.navigate("List")} title="Go list demo" />
       </View>
       <View style={styles.buttonStyle}>
         <Button
-          onPress={() => navigation.navigate("Image")} title="Go to Image" />
+          onPress={() => navigation.navigate("Image")} title="Go Image demo" />
+      </View>
+      <View style={styles.buttonStyle}>
+        <Button
+          onPress={() => navigation.navigate("Counter")} title="Go Counter demo" />
       </View>
     </View>
   );
